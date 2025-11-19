@@ -1,0 +1,16 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/tessera
+tessera.so
+tessera.dylib
+tessera.dll
+tessera.a
+tessera.lib
+tessera-test-*
+*.exe
+*.pdb
+*.o
+*.obj
+*.lst

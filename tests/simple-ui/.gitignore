@@ -1,0 +1,16 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/simple-ui
+simple-ui.so
+simple-ui.dylib
+simple-ui.dll
+simple-ui.a
+simple-ui.lib
+simple-ui-test-*
+*.exe
+*.pdb
+*.o
+*.obj
+*.lst

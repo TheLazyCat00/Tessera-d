@@ -1,0 +1,12 @@
+{
+	"authors": [
+		"TheLa"
+	],
+	"copyright": "Copyright © 2025, TheLa",
+	"description": "test",
+	"license": "Unlicense",
+	"name": "simple-ui",
+	"dependencies":{
+        "tessera": { "path": "../.." }
+    }
+}

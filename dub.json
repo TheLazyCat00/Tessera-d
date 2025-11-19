@@ -1,0 +1,9 @@
+{
+	"authors": [
+		"TheLa"
+	],
+	"copyright": "Copyright © 2025, TheLa",
+	"description": "A layout library that allows users to make their own widgets.",
+	"license": "GPL-3.0-or-later",
+	"name": "tessera"
+}

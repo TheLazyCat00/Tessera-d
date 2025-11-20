@@ -1,6 +1,6 @@
 import std.stdio;
-import tessera.core;
+import tessera : Tessera;
 
 void main(){
-	write(Core.Grid.name());
+	write();
 }

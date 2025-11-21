@@ -9,5 +9,3 @@ struct Grid{
 		return "bye";
 	}
 }
-
-alias _Grid = Grid;

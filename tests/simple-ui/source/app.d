@@ -1,6 +1,8 @@
 import std.stdio;
-import tessera : Tessera;
+import tessera = tessera;
+import types = tessera.types;
 
 void main(){
-	write();
+	types.Pixel cell = 0;
+	write(cell);
 }

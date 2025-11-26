@@ -1,11 +1,8 @@
 module tessera.core.grid;
+import tessera.types;
 
-struct Grid{
-	static string name(){
-		return "hi";
-	}
-
-	static string bye(){
-		return "bye";
-	}
+class Grid{
+	// Vector2!(FlexWeight[]) gridWeights;
+	// this(){
+	// }
 }

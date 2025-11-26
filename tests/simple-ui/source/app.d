@@ -1,8 +1,10 @@
 import std.stdio;
-import tessera = tessera;
-import types = tessera.types;
+import core = tessera.core;
+import tessera.types;
 
 void main(){
-	types.Pixel cell = 0;
-	write(cell);
+	auto foo = Vector2!int(3, 1);
+	// foo.data[Axis2.X] = 2;
+	// auto y = types.Vector2!int(3, 1);
+	write(foo.getAxis(Axis2.X));
 }

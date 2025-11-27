@@ -8,5 +8,9 @@ struct SizeGetter {
 		fn = (Dimension2!Pixel) => pixelValue;
 	}
 
-	alias fn this;  // Allows calling the delegate directly
+	this(Fraction fraction) {
+		fn = (Dimension2!Pixel dimensions) => cast(Pixel)(dimensions.y * fraction);
+	}
+
+	alias fn this;
 }

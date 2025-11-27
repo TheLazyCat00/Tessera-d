@@ -3,7 +3,7 @@ import core = tessera.core;
 import tessera.types;
 
 void main(){
-	Pixel foo = 1;
+	Fraction foo = 0.1;
 	SizeGetter boo = foo;
-	write(boo(Dimension2!Pixel(0,0)));
+	write(boo(Dimension2!Pixel(10, 100)));
 }

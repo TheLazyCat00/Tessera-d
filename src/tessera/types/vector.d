@@ -3,7 +3,7 @@ import tessera.types;
 
 immutable:
 struct Vector2(T) {
-	T[Axis2] data;
+	private T[Axis2] data;
 	@property T x() => data[Axis2.X];
 	@property T y() => data[Axis2.Y];
 

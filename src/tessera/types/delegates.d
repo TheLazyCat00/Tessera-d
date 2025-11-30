@@ -1,6 +1,7 @@
 module tessera.types.delegates;
 import tessera.types;
 
+immutable:
 struct SizeGetter {
 	Pixel delegate(Dimension2!Pixel widgetSize) fn;
 
@@ -14,3 +15,5 @@ struct SizeGetter {
 
 	alias fn this;
 }
+
+alias RenderCallback = PixelSurface delegate(Dimension2!Pixel dimensions);

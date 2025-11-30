@@ -2,7 +2,7 @@ module tessera.types;
 
 public import
 	tessera.types.aliases,
-	tessera.types.widget,
-	tessera.types.vector,
+	tessera.types.interfaces,
 	tessera.types.delegates,
-	tessera.types.axis;
+	tessera.types.blueprints,
+	tessera.types.helpers;
